@@ -1,0 +1,11 @@
+# Kişisel veri içerir (kullanıcı hesapları, oturumlar) — depoya konmamalı
+db.sqlite3
+# Model dosyaları büyük, ayrıca indirilir
+*.bin
+models/
+# Python / sistem
+__pycache__/
+*.pyc
+venv/
+.env
+.DS_Store
